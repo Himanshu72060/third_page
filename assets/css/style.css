@@ -174,7 +174,9 @@
 .text_clr_blue {
   color: #1e71ff;
 }
-
+.padding {
+  padding: 15px 45px;
+}
 .pad_t_30 {
   padding-top: 30px;
 }
@@ -267,7 +269,7 @@
   height: 20px;
 }
 .line {
-  width: 115px;
+  width: 159px;
   height: 0px;
   /* border: #1e71ff; */
   border: 1px solid rgba(43, 53, 62, 0.15);
