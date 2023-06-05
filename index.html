@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <div class="bg_colr_blue">
+    <header class="bg_colr_blue fixed_p">
       <div class="container">
         <nav class="pad_t_30">
           <div class="d_flex justify_content_space_bet">
@@ -20,7 +20,13 @@
                 ></a
               >
             </div>
-            <div class="d_flex align_center gap_30">
+            <label for="iconbox">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+            <input type="checkbox" id="iconbox" hidden />
+            <div class="d_flex align_center gap_30 sm-screen">
               <a href="#" class="f-f_poppins fw-500 fs-14 text_clr_white"
                 >Proudct</a
               >
@@ -39,36 +45,44 @@
             </div>
           </div>
         </nav>
+      </div>
+    </header>
+    <div class="bg_colr_blue">
+      <div class="container">
         <div class="row">
-          <div class="col-6">
-            <div>
-              <h1
-                class="f-f_poppins fw-600 fs-75 text_clr_white pad_t_225 width_100"
-              >
-                Have your best chat
-              </h1>
-            </div>
-            <div>
-              <p class="f-f_poppins fw-400 fs-21 pad_t_20 text_clr_white">
-                Fast, easy & unlimited team chat.
-              </p>
-            </div>
-            <div class="pad_t_60">
-              <a
-                href="#"
-                class="Try_it_Free f-f_poppins fw-500 fs-14 margin_r10 padding"
-                >Try It Free</a
-              >
-              <a href="#" class="f-f_poppins fw-500 fs-14 Try_it_Free padding"
-                >Get a Demo</a
-              >
+          <div class="col-6 col-12">
+            <div class="text_center_lg">
+              <div>
+                <h1
+                  class="f-f_poppins fw-600 fs-75 text_clr_white pad_t_225 width_100 fs_40 m_t-150"
+                >
+                  Have your best chat
+                </h1>
+              </div>
+              <div>
+                <p class="f-f_poppins fw-400 fs-21 pad_t_20 text_clr_white">
+                  Fast, easy & unlimited team chat.
+                </p>
+              </div>
+              <div class="pad_t_60">
+                <a
+                  href="#"
+                  class="Try_it_Free f-f_poppins fw-500 fs-14 margin_r10 padding pad-"
+                  >Try It Free</a
+                >
+                <a
+                  href="#"
+                  class="f-f_poppins fw-500 fs-14 Try_it_Free padding pad-"
+                  >Get a Demo</a
+                >
+              </div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-6 col-12">
             <img
               src="./assets/images/pic1.png"
               alt="#"
-              class="width_100 pad_t_145 margen_b160"
+              class="width_100 pad_t_145 margen_b100"
             />
           </div>
         </div>
@@ -77,8 +91,10 @@
     <!-- new container -->
     <div class="container">
       <div class="text_center">
-        <h1 class="f-f_poppins fw-500 fs-48 pad_t_90">Instant Team Chats</h1>
-        <p class="f-f_poppins fw-400 fs-18 text_clr_gray pad_t_30">
+        <h1 class="f-f_poppins fw-500 fs-48 pad_t_90 fs_30">
+          Instant Team Chats
+        </h1>
+        <p class="f-f_poppins fw-400 fs-18 text_clr_gray pad_t_30 fs_15">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
           <br />
           commodo ligula eget dolor. Aenean massa. Cum sociis natoque <br />
@@ -100,33 +116,35 @@
 
     <div class="bg_colr">
       <div class="row">
-        <div class="col-6">
+        <div class="col-6 col-12">
           <div>
             <img
               src="./assets/images/pic3.png"
               alt="#"
-              class="pad_t_125 width_100 margen_b130 transfom"
+              class="pad_t_125 width_100 margen_b130 transfom transfomnone"
             />
           </div>
         </div>
-        <div class="col-6">
-          <div>
-            <h1 class="f-f_poppins fw-500 fs-48 pad_t_160 width_90">
+        <div class="col-6 col-12 pad_b50">
+          <div class="text_center">
+            <h1
+              class="f-f_poppins fw-500 fs-48 pad_t_160 width_90 fs_30 m_t-200"
+            >
               Perfect Solution for <br />
               Small Businesses
             </h1>
-            <p class="f-f_poppins fw-400 fs-21 text_clr_gray pad_t_30">
+            <p class="f-f_poppins fw-400 fs-21 text_clr_gray pad_t_30 fs_15">
               Pricing plans that fit like a glove.
             </p>
             <div class="pad_t_60">
               <a
                 href="#"
-                class="Try_it_Free2 f-f_poppins fw-500 fs-14 text_clr_blue margin_r10 padding"
+                class="Try_it_Free2 f-f_poppins fw-500 fs-14 text_clr_blue margin_r10 padding pad-"
                 >Try It Free</a
               >
               <a
                 href="#"
-                class="Try_it_Free2 f-f_poppins fw-500 fs-14 text_clr_blue padding"
+                class="Try_it_Free2 f-f_poppins fw-500 fs-14 text_clr_blue padding pad-"
                 >Get a Demo</a
               >
             </div>
@@ -139,8 +157,11 @@
                 class="margen_r30 height_20"
               />
               <p class="f-f_Roboto fw-400 fs-18 text_clr_gray">
-                <span class="f-f_Roboto fw-700 fs-18">5,200 businesses</span>
-                use ChatApp and they rate it as
+                <span class="f-f_Roboto fw-700 fs-18 fs_15"
+                  >5,200 businesses</span
+                >
+                use ChatApp <br />
+                and they rate it as
                 <span class="f-f_Roboto fw-700 fs-18">5-stars.</span>
               </p>
             </div>
@@ -151,8 +172,8 @@
 
     <!-- footer -->
     <div class="container">
-      <div class="row">
-        <div class="col-4">
+      <div class="row1">
+        <div class="col-4 col-12">
           <a
             href="#"
             class="f-f_poppins fw-600 fs-24 d_flex align_center margen_t90"
@@ -163,16 +184,11 @@
             The last team chat you <br />
             will ever need.
           </p>
-          <p
-            class="f-f_Roboto fw-400 fs-13 text_clr_gray margen_t250 margen_b20"
-          >
-            © Copyright ChatApp Inc.
-          </p>
         </div>
-        <div class="col-8">
+        <div class="col-8 col-md-12">
           <div class="row">
-            <div class="col-3">
-              <h1 class="f-f_poppins fw-400 fs-18 margen_t90 margen_b20">
+            <div class="col-3 col-md-6 d_c">
+              <h1 class="f-f_poppins fw-400 fs-18 margen_t90 margen_b20 fs_15">
                 Help
               </h1>
               <a
@@ -182,75 +198,85 @@
               >
               <a
                 href="#"
-                class="f-f_Roboto text_clr_gray fw-400 fs-13 margin_r20 d_inlineb_mt_12"
+                class="f-f_Roboto text_clr_gray fw-400 fs-13 d_inlineb_mt_12"
                 >Knowledgebase</a
               >
               <a href="#" class="f-f_Roboto text_clr_gray fw-400 fs-13"
                 >Tutorials</a
               >
             </div>
-            <div class="col-3">
-              <h1 class="f-f_poppins fw-400 fs-18 margen_t90 margen_b20">
+            <div class="col-3 col-md-6 d_c">
+              <h1 class="f-f_poppins fw-400 fs-18 margen_t90 margen_b20 fs_15">
                 Features
               </h1>
               <a
                 href="#"
-                class="f-f_Roboto text_clr_gray fw-400 fs-13 margin_r50 d_inlineb_mt_12"
+                class="f-f_Roboto text_clr_gray fw-400 fs-13 d_inlineb_mt_12"
                 >Screen Sharing</a
               >
               <a
                 href="#"
-                class="f-f_Roboto text_clr_gray fw-400 fs-13 margin_r30 d_inlineb_mt_12"
+                class="f-f_Roboto text_clr_gray fw-400 fs-13 d_inlineb_mt_12"
                 >iOS & Android Apps</a
               >
               <a
                 href="#"
-                class="f-f_Roboto text_clr_gray fw-400 fs-13 margin_r65 d_inlineb_mt_12"
+                class="f-f_Roboto text_clr_gray fw-400 fs-13 d_inlineb_mt_12"
                 >File Sharing</a
               >
               <a href="#" class="f-f_Roboto text_clr_gray fw-400 fs-13"
                 >User Management</a
               >
             </div>
-            <div class="col-3">
-              <h1 class="f-f_poppins fw-400 fs-18 margen_t90 margen_b20">
+
+            <div class="col-3 col-md-6 d_c">
+              <h1 class="f-f_poppins fw-400 fs-18 margen_t90 margen_b20 fs_15">
                 Company
               </h1>
               <a
                 href="#"
-                class="f-f_Roboto text_clr_gray fw-400 fs-13 d_inlineb_mt_12 margin_r65"
+                class="f-f_Roboto text_clr_gray fw-400 fs-13 d_inlineb_mt_12"
                 >About Us</a
               >
               <a
                 href="#"
-                class="f-f_Roboto text_clr_gray fw-400 fs-13 margin_r80 d_inlineb_mt_12"
+                class="f-f_Roboto text_clr_gray fw-400 fs-13 d_inlineb_mt_12"
                 >Careers</a
               >
               <a href="#" class="f-f_Roboto text_clr_gray fw-400 fs-13"
                 >Contact Us</a
               >
             </div>
-            <div class="col-3">
-              <h1 class="f-f_poppins fw-400 fs-18 margen_t90 margen_b20">
+            <div class="col-3 col-md-6 d_c">
+              <h1 class="f-f_poppins fw-400 fs-18 margen_t90 margen_b20 fs_15">
                 Contact Us
               </h1>
               <a
                 href="#"
-                class="f-f_Roboto text_clr_gray fw-400 fs-13 d_inlineb_mt_12 margen_r30"
+                class="f-f_Roboto text_clr_gray fw-400 fs-13 d_inlineb_mt_12"
                 >info@chatapp.com</a
               >
               <a
                 href="#"
-                class="f-f_Roboto text_clr_gray fw-400 fs-13 margin_r50 d_inlineb_mt_12"
-                >1-800-200-300</a
+                class="f-f_Roboto text_clr_gray fw-400 fs-13 d_inlineb_mt_12"
+                >1-800-200300</a
               >
-              <a href="#" class="f-f_Roboto text_clr_gray fw-400 fs-13"
+              <a
+                href="#"
+                class="f-f_Roboto text_clr_gray fw-400 fs-13 d_inlineb_mt_12"
                 >3500 Deer Creek Rd Palo Alto, CA</a
               >
             </div>
           </div>
         </div>
       </div>
+    </div>
+    <div>
+      <p
+        class="f-f_Roboto fw-400 fs-13 text_clr_gray margen_t100 margen_b20 margine_l42"
+      >
+        © Copyright ChatApp Inc.
+      </p>
     </div>
   </body>
 </html>
