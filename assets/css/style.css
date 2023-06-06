@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -119,6 +119,9 @@
 }
 .f-f_Roboto {
   font-family: "Roboto";
+}
+.fw-200 {
+  font-weight: 200;
 }
 .fw-400 {
   font-weight: 400;
@@ -293,6 +296,9 @@
 .d_c {
   display: flex;
   flex-direction: column;
+}
+.margine_l-50 {
+  margin-left: -50px;
 }
 
 @media (max-width: 992px) {
