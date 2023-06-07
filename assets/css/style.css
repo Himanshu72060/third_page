@@ -264,7 +264,7 @@
 }
 .d_inlineb_mt_12 {
   display: inline-block;
-  margin-bottom: 12px;
+  margin-bottom: 12px;y
 }
 
 .width_100 {
@@ -290,6 +290,7 @@
   transform: translate(-20px, 10px);
 }
 .fixed_p {
+  
   position: sticky;
   top: 0;
 }
@@ -299,6 +300,9 @@
 }
 .margine_l-50 {
   margin-left: -50px;
+}
+.flex_wrap{
+  flex-wrap: wrap;
 }
 
 @media (max-width: 992px) {
